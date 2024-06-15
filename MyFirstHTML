@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            color: #444;
+            text-align: center;
+        }
+        h2 {
+            color: #666;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-header {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .project-item {
+            margin-bottom: 10px;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skills-list li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="section-header">
+            <h1>Personal Portfolio</h1>
+        </header>
+
+        <section class="section">
+            <div class="section-header">
+                <h2>About Me</h2>
+            </div>
+            <p>Hello! I'm [Your Name], a [Your Profession/Passion]. [Brief introduction about yourself].</p>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2>Projects</h2>
+            </div>
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2>Skills</h2>
+            </div>
+            <ul class="skills-list">
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <footer>
+            <p style="text-align: center; color: #888;">&copy; 2024 Your Name. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
